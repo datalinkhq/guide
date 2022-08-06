@@ -1,14 +1,14 @@
 import { defineUserConfig } from "@vuepress/cli";
 import type { DefaultThemeOptions } from "@vuepress/theme-default";
 import { nav, side } from "./layout";
-
+//@ts-ignore
 export default defineUserConfig<DefaultThemeOptions>({
   head: [
-    ["meta", { name: "application-name", content: "Tovy Documentation" }],
-    ["link", { rel: "icon", href: "/assets/favicon.ico" }],
+    ["meta", { name: "application-name", content: "Datalink Documentation" }],
+    ["link", { rel: "icon", href: "https://media.discordapp.net/attachments/997744059584106506/1001513676823601222/109857116-removebg-preview11.png" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     ["link", { rel: "preconnect", href: "https://cdn.jsdelivr.net" }],
-    ["script", { defer: true, 'data-domain': 'docs.tovyblox.xyz', src: "https://analytics.whooopdev.xyz/js/plausible.js" }],
+    // ["script", { defer: true, 'data-domain': 'docs.tovyblox.xyz', src: "https://analytics.whooopdev.xyz/js/plausible.js" }],
     [
       "link",
       {
@@ -21,17 +21,17 @@ export default defineUserConfig<DefaultThemeOptions>({
   locales: {
     "/": {
       lang: "en-US",
-      title: "Tovy Documentation",
+      title: "Datalink Documentation",
       description:
-        "Documentation for Tovy, the open source staff management system!",
+        "Documentation for Datalink, the lightweight, open-source analytics system.",
     },
   },
 
   themeConfig: {
-    logo: "/assets/icon.png",
-    repo: "tovyblox/tovy",
+    logo: "https://media.discordapp.net/attachments/997744059584106506/1001513676823601222/109857116-removebg-preview11.png",
+    repo: "datalinkhq/datalink",
     docsBranch: 'master',
-    docsRepo: "tovyblox/guide",
+    docsRepo: "datalinkhq/guide",
     editLinkPattern: ':repo/edit/:branch/docs/:path',
 
     locales: {

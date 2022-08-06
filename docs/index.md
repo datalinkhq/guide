@@ -1,21 +1,21 @@
 ---
 home: true
-heroImage: /assets/icon.png
-heroText: Tovy
-tagline: The Open Source Staff Management System for Roblox Groups!
+heroImage: https://media.discordapp.net/attachments/997744059584106506/1001513676823601222/109857116-removebg-preview11.png
+heroText: Datalink
+tagline: A lightweight analytics integration for upcoming ROBLOX games.
 actions: 
   - text: Get Started
     link: /guides/
     type: primary
-  - text: Get Started with Railway
+  - text: API Documentation
     link: /guides/deploy/setup.md#setting-up-tovy-as-a-railway-project
     type: secondary
 features:
-  - title: Open Source
-    details: Most Roblox staff management system is closed source and on-premise. Awful for large groups that requires scaling
-  - title: Performant
-    details: You do the hosting, and you get to scale Tovy to the point where it suits your group's needs. No need to care about performance issues due to inscalability.
-  - title: Beautiful & Responsive UI
-    details: Built with VueJS and Vuetify, Tovy works for any platform, including mobile, tablet, computers, or even an Xbox.
-footer: Made by WHOOOP & Edit with ❤️
+  - title: Keep track of everything.
+    details: Everything from simple player statistics, to custom events and feature flags. All in one place.
+  - title: Customizability to it's max.
+    details: Want something that isn't supported already? Want to add your own custom feature? Datalink supports it.
+  - title: Easy to implement.
+    details: Simply add a module script, and you're good to go!
+footer: Made with ❤️ by the Datalink team
 ---
